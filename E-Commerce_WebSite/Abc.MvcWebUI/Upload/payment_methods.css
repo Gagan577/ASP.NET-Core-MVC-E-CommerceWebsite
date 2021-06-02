@@ -1,0 +1,61 @@
+.paymentWrap {
+	padding: 10px;
+}
+
+.paymentWrap .paymentBtnGroup {
+	max-width: 400px;
+	margin: auto;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod {
+	padding: 75px;
+	box-shadow: none;
+	position: relative;
+}
+
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+	left: 10px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px solid transparent;
+	transition: all 0.5s;
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.bonus {
+	background-image: url("bonus.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.world {
+	background-image: url("world.png");
+	}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.axess {
+	background-image: url("axess.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.finans {
+	background-image: url("finans.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.maximum {
+	background-image: url("maximum.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.paraf {
+	background-image: url("paraf.png");
+}
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method.bankkart {
+	background-image: url("bankkart.png");
+}
+
+
+.paymentWrap .paymentBtnGroup .paymentMethod .method:hover {
+	outline: none !important;
+}

@@ -1,0 +1,36 @@
+﻿@using Abc.MvcWebUI.Models
+@model Abc.MvcWebUI.Models.Cart
+
+<style>
+
+
+    #cart {
+        color: white;
+    }
+</style>
+<!--
+<ul class="navbar-nav  my-2 my-lg-0">
+    <li id="cart" class="nav-item">
+        <a class="nav-link" href="/Cart">
+            <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            (@Model.CartLines.Count)
+        </a>
+
+    </li>
+</ul>
+-->
+
+<div class="cart">
+    <a href="/Cart">
+        <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+            <div class="cart_icon">
+                <img src="/Upload/cart.png" alt="">
+                <div class="cart_count">
+                    <span>
+                        (@Model.CartLines.Count)
+                    </span>
+                </div>
+            </div>
+    </a>>
+    </div>
+</div>
